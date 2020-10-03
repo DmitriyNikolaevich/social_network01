@@ -1,3 +1,7 @@
 .wrapper {
     grid-area: P;
 }
+
+.wrapper img {
+    height: 400px;
+}

@@ -1,3 +1,10 @@
 .wrapper {
     grid-area: N;
 }
+
+.wrapper a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: white;
+}
+
