@@ -7,6 +7,9 @@ import Navbar from './Components/Navbar/Navbar';
 import NameSocial from './Components/NameSocial/NameSocial';
 import About from './Components/Content/About/About';
 import { BrowserRouter, NavLink, Route } from 'react-router-dom';
+import Photos from './Components/Content/Photos/Photos';
+import Friends from './Components/Content/Friends/Friends';
+import More from './Components/Content/More/More';
 
 function App() {
   return (
@@ -17,10 +20,10 @@ function App() {
         <Navbar />
         <NameSocial />
         <div className='content'>
-          <Route component='About' path='/About' />
-          <Route component='Photos' path='/Photos' />
-          <Route component='Friends' path='/Friends' />
-          <Route component='More' path='/More' />
+          <Route render={ () => (<About />)} path='/about' />
+          <Route render={ () => (<Photos />)} path='/photos' />
+          <Route render={ () => (<Friends />)} path='/friends' />
+          <Route render={ () => (<More />)} path='/more' />
         </div>
       </div>
     </BrowserRouter>
