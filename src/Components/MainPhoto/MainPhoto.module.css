@@ -1,7 +1,11 @@
 .wrapper {
     grid-area: P;
+    
+    width: 300px;
 }
 
 .wrapper img {
-    height: 400px;
+    width: 300px;
+    border: 20px solid white;
+    
 }

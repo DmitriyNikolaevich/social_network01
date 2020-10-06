@@ -1,4 +1,5 @@
 .App-wraper {
+  background-color: lightgray;
   display: grid;
   grid-template-areas: 
   "B B B B B B B B B B B"

@@ -1,3 +1,5 @@
 .wrapper {
     grid-area: S;
+    background-color: white;
+    width: 100%;
 }
