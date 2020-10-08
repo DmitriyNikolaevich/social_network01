@@ -1,6 +1,7 @@
 .wrapper {
     grid-area: N;
     height: 100px;
+    background-color: white;
 }
 
 .wrapper a {
