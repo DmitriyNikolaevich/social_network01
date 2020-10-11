@@ -1,6 +1,6 @@
 import React from 'react';
 import Friends from '../Friends/Friends';
-import Photos from '../Photos/Photos';
+import Photos from './Photos/Photos';
 import s from './About.module.css';
 import FavoriteBooks from './FavoriteBooks/FavoriteBooks';
 import FavoriteSports from './FavoriteSports/FavoriteSports';

@@ -4,4 +4,10 @@
 
 .variant {
     display: inline-block;
+    vertical-align: top;
+}
+
+.variant textarea {
+    width: 600px;
+    margin: auto 30px;
 }
